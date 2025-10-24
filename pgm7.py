@@ -1,6 +1,12 @@
-text = input ("Enter a line of text:").split()
-word-count={}
-for word in text!
-word_count[word]= word_count.get(word,0)+1
-print(word_count)
+a=int(input("Enter the 1st number: "))
+b=int(input("Enter the 2nd number: "))
+c=int(input("Enter the 3rd number: "))
 
+if a>=b and a>=c:
+    big=a
+elif b>=a and b>=c:
+    big=b
+else:
+    big=c
+
+print("The biggest number is: ",big)    
